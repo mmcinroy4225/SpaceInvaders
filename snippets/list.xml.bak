@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
     <snippet attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="0" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="20" defaultValue="20" desc="How fast the player's ship can move along the X-axis" dropdown="" fullname="Ship Speed" hidden="false" id="1" name="_ShipSpeed" order="0"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_2" classname="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
